@@ -21,6 +21,7 @@
 var compteur=0;
 
 Now creating like() function **(can be find in file likefunction.js)** :
+```
 function like(){
     console.log("Start of like function");
     document.getElementById("fiak").click();
@@ -28,15 +29,16 @@ function like(){
     console.log("Like number **** " + compteur +" ****");
     console.log("end of like function");
 }
+```
 
 Try by taping like(); (if it is functionnal, it will like)
 
 7 : And now automating the function by this :
-
+```
 const interval3 = setInterval(function() {
    like();
  }, Math.floor(Math.random() * 1000) + 500);  // random time 500 to 1500ms);
-
+```
 
 **Advice : Keep the random time to not be banned.**
 
