@@ -1,5 +1,5 @@
 # TinderAutoLike
-Auto like tinder JavaScript function - WEB PC
+**Auto like tinder JavaScript function - WEB PC**
 
 
 1 : be logged in Tinder.com and go on https://tinder.com/app/matches
@@ -13,12 +13,12 @@ Auto like tinder JavaScript function - WEB PC
 
 4 : Open console
 5 (optionnal) : Try by typing : document.getElementById("fiak").click(); 
-If functionnal, it will like
+(if it is functionnal, it will like)
 
 6 : Still in console, type 
 var compteur=0;
 
-Now creating like() function :
+Now creating like() function **(can be find in file likefunction.js)** :
 function like(){
     console.log("Start of like function");
     document.getElementById("fiak").click();
@@ -27,7 +27,7 @@ function like(){
     console.log("end of like function");
 }
 
-Try by taping like(); (if functionnal, it will like)
+Try by taping like(); (if it is functionnal, it will like)
 
 7 : And now automating the function by this :
 
@@ -38,4 +38,4 @@ const interval3 = setInterval(function() {
 
 Advice : Keep the random time to now be banned.
 
-This is just for FUN. And BE kind with women.
+**This is just for FUN. And BE kind with women.**
