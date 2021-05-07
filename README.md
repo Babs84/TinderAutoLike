@@ -8,17 +8,20 @@
 
 ![image](https://user-images.githubusercontent.com/18121247/117440689-ac5f0280-af34-11eb-828a-aed63c1e5a57.png)
 
-3 : Add id="fiak" at the end of the like button
+3 : Add ```id="fiak" ``` at the end of the like button
 
 ![image](https://user-images.githubusercontent.com/18121247/117440748-c39df000-af34-11eb-97e0-1cb630399f42.png)
 
 4 : Open console
 
-5 (optionnal) : Try by typing : document.getElementById("fiak").click(); 
+5 (optionnal) : Try by typing : 
+```document.getElementById("fiak").click(); ```
 (if it is functionnal, it will like)
 
 6 : Still in console, type 
+```
 var compteur=0;
+```
 
 Now creating like() function **(can be find in file likefunction.js)** :
 ```
