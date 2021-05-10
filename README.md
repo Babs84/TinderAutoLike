@@ -38,11 +38,15 @@ Try by taping like(); (if it is functionnal, it will like)
 
 7 : And now automating the function by this :
 ```
-const interval3 = setInterval(function() {
+const interval = setInterval(function() {
    like();
  }, Math.floor(Math.random() * 1000) + 500);  // random time 500 to 1500ms);
 ```
 
+8 : To stop interval
+```
+clearInterval(interval);
+```
 **Advice : Keep the random time to not be banned.**
 
 **This is just for FUN. And BE kind with women.**
